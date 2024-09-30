@@ -24,4 +24,4 @@ sudo lb build
 2. Mount your backup storage to store the acquired disk
 3. Select ```guymager``` and launch acquisition
 
-You can also use terminal and launch acquisition manually with ```dd````
+You can also use terminal and launch acquisition manually with ```dd```
