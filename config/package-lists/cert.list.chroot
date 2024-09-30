@@ -1,0 +1,13 @@
+
+## Forensic
+guymager
+
+## System
+console-setup gparted iotop pciutils screen terminator tmux usbutils
+
+## System driver
+firmware-linux firmware-linux-nonfree
+firmware-b43-installer firmware-b43legacy-installer
+
+## System desktop
+xinit i3-wm i3status i3blocks dmenu lightdm lightdm-gtk-greeter thunar feh libxrandr2 fonts-font-awesome 
