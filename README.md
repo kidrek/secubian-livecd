@@ -15,7 +15,7 @@ git clone https://github.com/kidrek/secubian-livecd.git
 cd secubian-livecd
 
 # ISO Generation
-lb build
+sudo lb build
 ```
 
 ## Usage
