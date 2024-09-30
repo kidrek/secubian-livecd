@@ -25,6 +25,9 @@ lb config noauto \
     --iso-publisher "Forensic - Live Linux to acquire evidence" \
     --memtest "none" \
     --win32-loader "false" \
+    --compression gzip \
+    --gzip-options '-9  --rsyncable' \
+    --initramfs-compression "lzma" \
     --clean \
     --debug \
     --verbose \
