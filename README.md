@@ -16,6 +16,9 @@ cd secubian-livecd
 
 # ISO Generation
 sudo lb build
+
+# Send ISO to USB key
+dd if=CERT-Forensic_live_system-amd64.hybrid.iso of=/dev/sd{b-z}
 ```
 
 ## Usage
