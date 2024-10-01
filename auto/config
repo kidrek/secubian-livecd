@@ -22,15 +22,15 @@ lb config noauto \
     --debian-installer-gui "true" \
     --firmware-binary "true" \
     --firmware-chroot "true" \
-    --iso-publisher "Forensic - Live Linux to acquire evidence" \
+    --image-name "CERT-Forensic_live_system" \
+    --iso-application "CERT-Forensic_live_system" \
+    --iso-volume "CERT-Forensic_live_system" \
+    --iso-publisher "CERT - Live system Linux to acquire evidence" \
     --memtest "none" \
     --win32-loader "false" \
-    --compression gzip \
-    --gzip-options '-9  --rsyncable' \
-    --initramfs-compression "lzma" \
+    --gzip-options "-9 --rsyncable" \
     --clean \
     --debug \
     --verbose \
     --source "false" \
     "${@}"
-
