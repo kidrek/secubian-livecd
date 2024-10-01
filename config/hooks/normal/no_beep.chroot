@@ -1,0 +1,7 @@
+#!/bin/sh 
+
+set -e 
+
+# couper les 'beeps' d'erreur de l'ordinateur
+# Source: https://salsa.debian.org/debian-facile-team/projetsdf/dfiso-bookworm/-/blob/main/config/hooks/normal/no_beep.chroot?ref_type=heads
+echo "blacklist pcspkr" > "/etc/modprobe.d/nobeep.conf"
