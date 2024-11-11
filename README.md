@@ -1,8 +1,7 @@
 # secubian-livecd
 This is a light linux iso used to acquire artefact during cybersecurity incident.
 
-Based on Debian and generate with "Live build" tool.
-
+Based on Debian and generated with "Live build" tool.
 
 ## Requirements
 
@@ -20,6 +19,12 @@ sudo lb build
 # Send ISO to USB key
 dd if=CERT-Forensic_live_system-amd64.hybrid.iso of=/dev/sd{b-z}
 ```
+
+
+It's possible to add data partition in ISO.
+Thanks to lange@debian.org for this script : ```mk-data-parition```
+Source : https://raw.githubusercontent.com/faiproject/fai/refs/heads/master/bin/mk-data-partition
+
 
 ## Usage
 
